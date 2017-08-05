@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Mint-Y-Blue-Smooth
+Comment=A flat light theme with transparent elements
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+IconTheme=Mint-Y-Blue-Smooth
+CursorTheme=DMZ-White
+ButtonLayout=menu:minimize,close
