@@ -8,6 +8,10 @@
  * This file has been heavily copied from the Mint-Y-Yltra-Light theme.
  * I have sprinkled some commentaries around, but it's still quite under-documented.
  *
+ * Note also that this is NOT a full-fledged CSS.
+ * The code in this file is hackish, but since the CSS-like properties are
+ * not documented anywhere, it's really hard to re-organize this mess ...
+ *
  *
  * Notable modifications:
  *
