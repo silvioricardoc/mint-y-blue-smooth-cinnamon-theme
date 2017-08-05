@@ -1341,6 +1341,10 @@ StScrollBar {
     /** (B) Reduce the contrast between applets and bar. The original color was #000. */
     color: #444;
 }
+/** (B) Fix weird behavior where the Menu does not become white when active */
+.applet-box:active .applet-label {
+    color: #fff;
+}
 
 /** (B) Whenever applet-box is hovered over, we actually want the label whitened.
  * (Instead of only doing it when the label itself is hovered, as in the original).
