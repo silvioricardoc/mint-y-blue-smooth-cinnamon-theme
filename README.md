@@ -17,6 +17,5 @@ Then open the `Themes` tool and choose the Desktop `mint-y-blue-smooth`.
 
 What does it look like?
 =======================
-Screenshot:
 
-![](https://raw.githubusercontent.com/silvioricardoc/mint-y-blue-smooth-cinnamon-theme/master/cinnamon/screenshot.jpg)
+![](https://raw.githubusercontent.com/silvioricardoc/mint-y-blue-smooth-cinnamon-theme/master/cinnamon/screenshot.png)
