@@ -1,6 +1,6 @@
 What is this?
 =============
-This is a Cinnamon theme for Linux Mint.
+This is a Cinnamon theme for Linux Mint, Ubuntu and friends.
 
 
 How can I download it?
