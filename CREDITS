@@ -1,20 +1,34 @@
-Credits
-=======
+Credits for Cinnamon theme
+==========================
+Theme by Silvio Ricardo Cordeiro
+    Link: https://github.com/silvioricardoc/mint-y-blue-smooth-cinnamon-theme
 
 Adapted from Mint-Y-Yltra-Light theme v0.6.8.6 by THORiN.
-	Link: https://www.gnome-look.org/p/1154696/
+    Link: https://www.gnome-look.org/p/1154696/
 
 Cinnamon panel inspired by Mint-Y-Light made by Paul Vandenberg
-	Link: https://cinnamon-spices.linuxmint.com/themes/view/568
+    Link: https://cinnamon-spices.linuxmint.com/themes/view/568
 
 Inspired by Erik Dubois recolors of the Mint-Y theme.
-	Link: https://github.com/erikdubois
+    Link: https://github.com/erikdubois
 
 Based on the Mint-Y theme by the Linux Mint team.
     Link: https://github.com/linuxmint/mint-y-theme
 
 This theme is originally based on the Arc theme:
-	Link: https://github.com/horst3180/arc-theme
-	Author: horst3180 http://horst3180.deviantart.com/
-	License: GPL v3
+    Link: https://github.com/horst3180/arc-theme
+    Author: horst3180 http://horst3180.deviantart.com/
+    License: GPL v3
 
+
+Credits for Gtk theme
+=====================
+Theme by Silvio Ricardo Cordeiro
+    Link: https://github.com/silvioricardoc/mint-y-blue-smooth-cinnamon-theme
+
+Adapted from customization:
+    Author: Vince Liuice <vinceliuice@hotmail.com> - Vimix Gtk Theme
+    Link: https://github.com/vinceliuice/vimix-gtk-themes
+
+Original source:
+    nana-4 - Flat-Plat gtk theme: https://github.com/nana-4/Flat-Plat
