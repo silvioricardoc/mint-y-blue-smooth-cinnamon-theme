@@ -18,6 +18,7 @@
  *   (A) Adapted tabs to be prettier and to have a more reasonable width.
  *   (B) Lighter-colored scroll-bar.
  *   (C) Minor changes to tab_ripple_effect (effect when clicking on tabs).
+ *   (D) Headerbar changed to match titlebar in metacity theme.
  *
  */
 
@@ -890,11 +891,17 @@ headerbar {
   min-height: 44px;
   padding: 0 6px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24), inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #EEEEEE;
-  color: rgba(0, 0, 0, 0.8); }
+  /** (D) `background-color` should be the same as C_titlebar in metacity theme.
+   * They both refer to basically the same thing, but are configured in
+   * completely different places.
+   */
+  background-color: #545860;
+  /** (D) As in the case of background-color, `color` must match C_title_focused in metacity theme */
+  color: #ffffff; }
   .titlebar:backdrop:not(headerbar),
   headerbar:backdrop {
-    color: rgba(0, 0, 0, 0.6); }
+    /** (D) As in the case of background-color, `color` must match C_title_unfocused in metacity theme */
+    color: #cbcccf; }
   .titlebar:not(headerbar) .title,
   headerbar .title {
     transition: all 0.3s cubic-bezier(0, 0, 0.2, 1);

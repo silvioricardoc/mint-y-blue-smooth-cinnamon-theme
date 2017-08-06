@@ -7,5 +7,7 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=Mint-Y-Blue-Smooth
 IconTheme=Mint-Y-Blue-Smooth
+MetacityTheme=Mint-Y-Blue-Smooth
+Icons=oxygen
 CursorTheme=DMZ-White
 ButtonLayout=menu:minimize,close
