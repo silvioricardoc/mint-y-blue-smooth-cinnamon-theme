@@ -1338,7 +1338,7 @@ StScrollBar {
     	background-gradient-end: rgba(55, 112, 170, 1);
 }
 .applet-label {	
-
+    padding-top: 2.2px;  /** Extra padding on top, because "vertical-alignment: middle;" does not work */
     font-size: 1.0em;
     font-weight: bold;
 
