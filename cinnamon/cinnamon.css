@@ -232,7 +232,7 @@ StScrollBar {
 
 .menu {
   color: #4a4a4a;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #99a;  /** Make menu border more similar to bottom panel border. */
   border-radius: 3px;
   background-color: rgba(240, 240, 240, 0.99); }
   .menu.top {
@@ -356,7 +356,7 @@ StScrollBar {
 
 #panel {
   font-weight: bold;
-  height: 27px; }
+  height: 28px; }
   #panelLeft {
     spacing: 4px; }
     #panelLeft:dnd {
@@ -454,14 +454,19 @@ StScrollBar {
     background-gradient-direction: vertical;
     background-gradient-start: rgba(0, 255, 0, 0.05);
     background-gradient-end: rgba(0, 255, 0, 0.2); }
+
+/** Configure bottom panel color and border */
 .panel-top, .panel-bottom, .panel-left, .panel-right {
   color: #000000;
   font-size: 1em;
-  padding: 0px; }
-.panel-top {
-  border-image: url("common-assets/panel/panel-top.svg") 1 1 1 1; }
-.panel-bottom, .panel-left, .panel-right {
-  border-image: url("common-assets/panel/panel-bottom.svg") 1 1 1 1; }
+  background-color: whitesmoke;
+}
+.panel-bottom {
+  box-shadow: 0px 0px 1px 1px #999;
+}
+
+/* .panel-top does not work, there is another panel hidden behind (what an ugly hack!) */
+
 .panel-dummy {
   background-color: rgba(252, 65, 56, 0.5); }
   .panel-dummy:entered {
@@ -1338,7 +1343,7 @@ StScrollBar {
     	background-gradient-end: rgba(55, 112, 170, 1);
 }
 .applet-label {	
-    padding-top: 2.2px;  /** Extra padding on top, because "vertical-alignment: middle;" does not work */
+    padding-top: 2.5px;  /** Extra padding on top, because "vertical-alignment: middle;" does not work */
     font-size: 1.0em;
     font-weight: bold;
 
