@@ -15,6 +15,11 @@ git clone https://github.com/silvioricardoc/mint-y-blue-smooth-cinnamon-theme
 Then open the `Themes` tool and choose the Desktop `mint-y-blue-smooth`.
 
 
+Can I modify it?
+================
+Sure! It's licensed under GPL 3.
+
+
 What does it look like?
 =======================
 Look at the bottom panel on this image:
