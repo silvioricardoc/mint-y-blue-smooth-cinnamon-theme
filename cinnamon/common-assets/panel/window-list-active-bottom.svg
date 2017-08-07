@@ -7,15 +7,16 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="90.000000"
    inkscape:export-xdpi="90.000000"
-   width="28"
-   height="4"
+   width="15"
+   height="28"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.1 r15371"
    sodipodi:docname="window-list-active-bottom.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -29,9 +30,9 @@
      borderopacity="1"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="19.769528"
-     inkscape:cx="12.291705"
-     inkscape:cy="3.0971298"
+     inkscape:zoom="13.979167"
+     inkscape:cx="13.651382"
+     inkscape:cy="7.1437617"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -39,8 +40,8 @@
      inkscape:showpageshadow="true"
      inkscape:window-width="1142"
      inkscape:window-height="566"
-     inkscape:window-x="2561"
-     inkscape:window-y="82"
+     inkscape:window-x="317"
+     inkscape:window-y="193"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -64,17 +65,45 @@
      guidehicolor="#001aff"
      guidehiopacity="0.49803922"
      inkscape:snap-smooth-nodes="false"
-     inkscape:snap-page="true">
+     inkscape:snap-page="true"
+     inkscape:snap-global="false">
     <inkscape:grid
        type="xygrid"
        id="grid3123"
        empspacing="4"
        visible="true"
        enabled="true"
-       snapvisiblegridlinesonly="true" />
+       snapvisiblegridlinesonly="true"
+       originx="0"
+       originy="0"
+       spacingx="1.0666667"
+       spacingy="1.0666667" />
   </sodipodi:namedview>
   <defs
-     id="defs3" />
+     id="defs3">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4508">
+      <stop
+         style="stop-color:#3770aa;stop-opacity:1;"
+         offset="0"
+         id="stop4504" />
+      <stop
+         style="stop-color:#3770aa;stop-opacity:0;"
+         offset="1"
+         id="stop4506" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4508"
+       id="linearGradient4510"
+       x1="7.6542468"
+       y1="317.74759"
+       x2="7.6318932"
+       y2="316.27011"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.3430272,0,-109.76866)" />
+  </defs>
   <metadata
      id="metadata4">
     <rdf:RDF>
@@ -130,13 +159,27 @@
      inkscape:groupmode="layer"
      inkscape:label="Base"
      id="layer1"
-     transform="translate(0,-296)">
+     transform="translate(0,-292)">
     <rect
-       style="opacity:1;fill:#3770aa;fill-opacity:1;stroke:none"
+       style="opacity:1;fill:url(#linearGradient4510);fill-opacity:1;stroke:none;stroke-width:0.61477828"
        id="rect4270-9"
-       width="24"
-       height="2"
-       x="2"
-       y="298" />
+       width="15.071535"
+       height="4.4812012"
+       x="5.9952043e-15"
+       y="315.51874"
+       ry="1.4537153"
+       rx="1.5737702" />
+    <rect
+       id="rect14"
+       width="8.8817842e-16"
+       height="1.0666667"
+       x="2.1333334"
+       y="316.79999" />
+    <rect
+       id="rect13"
+       width="8.8817842e-16"
+       height="1.0666667"
+       x="2.1333334"
+       y="316.79999" />
   </g>
 </svg>
