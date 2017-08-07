@@ -35,7 +35,8 @@
 <!-- (A) -->
 <!-- WARNING: C_titlebar should match the `headerbar` in gtk.css -->
 <constant name="C_titlebar" value="#545860"/>
-<constant name="C_titlebar_alt" value="gtk:custom(theme_bg_color,gtk:bg[NORMAL])"/>
+<!-- C_titlebar_alt refers to dialog windows, and should be the same as C_titlebar -->
+<constant name="C_titlebar_alt" value="#545860"/>
 
 <!-- (A) -->
 <constant name="C_highlight" value="blend/#545860/#FFFFFF/0.2"/>
